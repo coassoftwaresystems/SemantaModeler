@@ -27,7 +27,6 @@ h1.title {
 }
 p {
  margin-top: 2px;
- margin-bottom: 2em;
  padding: 0;
 }
 div.title {
@@ -46,23 +45,14 @@ div.policy {
  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
  margin-top: 25px;
  padding: 25px;
- width: 700px;
-}
-
-div.store {
-	margin-top: 50px;
-	margin-bottom: 50px;
-}
-div.store p {
-	padding-top: 25px;
 }
 
 div.coas {
  background-image: url(images/coas-logo.png);
- background-position: right bottom;
+ background-position: 300px bottom;
  background-repeat: no-repeat;
  height: 100px;
- margin-top: 65px;	 
+ margin-top: 65px;
  width: 700px;
 }
 div.coas div {
@@ -71,14 +61,93 @@ div.coas div {
 }
 div.coas div a {
 }
-li.beta {
-	margin-top: 12px;
-}
 span.warning {
-	font-style: italic;
-	font-size: 8pt;
+ font-style: italic;
+ font-size: 8pt;
 }
-span.note {
-	font-style: italic;
-	font-size: 8pt;
+
+div.button_alignment {
+ text-align: center;
+ margin-bottom: 10px;
+ margin-top: 30px;
+}
+
+div.button_container {
+ display: inline-block;
+}
+
+div.button_container .small {
+ color:#7F7F7F;
+ font-size: 85%;
+}
+
+div.download_button {
+ background: rgba(128, 135, 144, 1.00);
+ border: 1px solid rgba(255, 255, 255, 1);
+ border-radius: 5pt;
+ box-sizing: border-box;
+ color: white;
+ display: inline-block;
+ line-height: 1.5;
+ margin-left: 20px;
+ padding: 10px;
+ text-align: center;
+ user-select: none;
+}
+div.download_button:hover {
+ border: 1px solid rgba(128, 135, 144, 1.00);
+}
+div.download_button.stable {
+ background: rgba(27, 163, 239, 1);
+}
+div.download_button.stable:hover {
+ border: 1px solid rgba(27, 163, 239, 1);
+}
+
+div.download_button p {
+ margin: 0;
+}
+div.download_button .button_title {
+ font-size: 18px;
+}
+div.download_button a:link {
+ color: white;
+ text-decoration: none;
+}
+div.download_button a:visited {
+ color: white;
+}
+
+div.store {
+ margin-top: 50px;
+ margin-bottom: 5px;
+ text-align: center;
+}
+div.store p {
+ text-align: left;
+ padding-top: 5px;
+}
+
+div.footer {
+ background-color: black;
+ color: white;
+ left: 50%;
+ margin-left: -350px;
+ padding: 5px;
+ position: relative;
+ width: 690px;
+}
+
+div.footer a {
+ color: white;
+ margin-left: 10px;
+}
+div.footer span.email {
+  margin-left: 75px;
+}
+div.footer span.note {
+ font-style: italic;
+ font-size: 8pt;
+ position: absolute;
+ right: 10px;
 }
