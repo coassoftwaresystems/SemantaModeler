@@ -42,7 +42,6 @@ div.title {
 div.policy {
  background-color: #fff;
  border: 1px solid #000;
- box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
  margin-top: 25px;
  padding: 25px;
 }
@@ -141,6 +140,7 @@ div.footer {
 div.footer a {
  color: white;
  margin-left: 10px;
+ text-decoration: none;
 }
 div.footer span.email {
   margin-left: 75px;
