@@ -2,6 +2,7 @@ body {
  background-image: url(images/coas-building.jpg);
  background-repeat: no-repeat;	
  background-size: cover;
+ color: black;
  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
  font-size: 10pt;
  line-height: 1.5;
@@ -11,6 +12,9 @@ div.content {
  margin-left: -350px;
  position: relative;
  width: 700px;
+}
+div.content a {
+ color: black;
 }
 h1 {
  font-size: 2.5em;
